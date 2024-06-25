@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(255, 133, 88);
+}
+input{
+    margin-left: 250px;
+    padding-right: 200px;
+    padding-left: 20px;
+}
+
+button{
+    padding: 10px;
+    color: whitesmoke;
+    background-color: red;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+.upper-part{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    /* margin: auto; */
+}
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.cart-container{
+    width:50%;
+    box-shadow: 4px 4px 8px gray;
+    /* margin: auto; */
+    text-align: center;
+}
+
+.display-first{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.searched-data{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.child{
+    border: 2px solid gray;
+    margin: 10px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    /* height: 300px; */
+}
+
+img{
+    width: 100px;
+    padding-left: 15px;
+}
+
+.kid{
+    border: 2px solid gray;
+    margin: 10px;
+    padding: 20px;
+}
+
+.cart-info{
+    display: flex;
+    justify-content: space-around;
+}
